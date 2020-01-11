@@ -1,7 +1,7 @@
 # Ignore Folders
 .storage
+.cache
 .cloud
-.androidkeys
 .google.token
 __pycache__
 deps
