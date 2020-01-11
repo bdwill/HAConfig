@@ -3,3 +3,9 @@ sudo gpasswd -a ${USER} docker
 sudo systemctl restart snap.docker.dockerd
 sudo service docker restart
 exit
+ls
+cd HomeAssistantConfig/
+ls
+cd ..
+ls
+sudo nano .gitignore 

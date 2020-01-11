@@ -5,15 +5,16 @@
 .google.token
 __pycache__
 deps
-www/custom-lovelace/upcoming-media-card
 icloud
 notebooks
 tts
+HomeAssistantConfig
 
 # Ignore File Extensions
 *.conf
 *.pickle
 *.pyc
+*.log
 
 # Ignore Specific Files
 ._*
