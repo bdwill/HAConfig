@@ -23,17 +23,17 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 
-# Connect to Vera
+# Vera
 vera:
   vera_controller_url: !secret vera_controller_url
   
 ifttt:
     key: !secret ifttt_key
 
-pi_hole:
-  host: !secret pihole_host
-  verify_ssl: false
-  ssl: true
-
 sensor:
   - platform: flunearyou
+
+pi_hole:
+  host: 192.168.1.103
+  ssl: false
+  verify_ssl: false
