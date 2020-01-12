@@ -17,7 +17,6 @@ HomeAssistantConfig
 *.log
 
 # Ignore Specific Files
-.*
 ._*
 .DS_Store
 .spotify-token-cache
