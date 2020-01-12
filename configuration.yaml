@@ -35,10 +35,5 @@ pi_hole:
   verify_ssl: false
   ssl: true
 
-# Connect to Ring.com
-ring:
-  username: !secret ring_username
-  password: !secret ring_password
-
 sensor:
   - platform: flunearyou
