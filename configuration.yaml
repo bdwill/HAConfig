@@ -34,6 +34,6 @@ sensor:
   - platform: flunearyou
 
 pi_hole:
-  host: 192.168.1.103
+  host: !secret pihole_host
   ssl: false
   verify_ssl: false
